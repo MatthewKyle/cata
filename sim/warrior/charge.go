@@ -14,6 +14,7 @@ func (warrior *Warrior) RegisterCharge() {
 		SpellSchool:    core.SpellSchoolPhysical,
 		Flags:          core.SpellFlagAPL,
 		ClassSpellMask: SpellMaskCharge,
+		ProcMask:       core.ProcMaskMeleeSpecial,
 
 		Cast: core.CastConfig{
 			DefaultCast: core.Cast{},
